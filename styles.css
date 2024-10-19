@@ -354,6 +354,7 @@ form {
       }
     }
   }
+
   .overview-container {
     h2 {
       font-size: 2rem;
@@ -383,4 +384,8 @@ form {
     margin: 0 auto;
     overflow: auto;
   }
+}
+
+tbody tr :hover {
+  background-color: goldenrod;
 }
