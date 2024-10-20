@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="../styles.css" />
   </head>
+
   <body>
     <div class="navbar">
       <a href="../index.html"
@@ -80,7 +81,7 @@
       >
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid h-card">
       <header class="text-center py-2 header-container">
         <div class="logo-container">
           <img src="../assets/logo.png" alt="Logo" class="logo" />
@@ -92,11 +93,11 @@
       </h2>
 
       <form method="GET" action="../table/table.html" class="p-4">
-        <div class="mb-3">
+        <div class="mb-3 p-person">
           <label for="name" class="form-label">Nama Lengkap</label>
           <input
             type="text"
-            class="form-control"
+            class="form-control p-name"
             id="name"
             name="name"
             placeholder="Ex. Stephen Mancester"
@@ -108,7 +109,7 @@
           <label for="email" class="form-label">Email</label>
           <input
             type="email"
-            class="form-control"
+            class="form-control u-email"
             id="email"
             name="email"
             required
@@ -118,7 +119,7 @@
 
         <div class="mb-3">
           <label for="date" class="form-label">Tanggal Lahir</label>
-          <input type="date" class="form-control" id="date" name="date" />
+          <input type="date" class="form-control bday" id="date" name="date" />
         </div>
 
         <div class="mb-3">
@@ -137,7 +138,7 @@
           <label for="pesan" class="form-label">Pesan-Pesan</label>
           <input
             type="text"
-            class="form-control"
+            class="form-control p-note"
             id="pesan"
             name="pesan"
             placeholder="optional"
@@ -149,7 +150,9 @@
     </div>
 
     <footer class="text-center py-2">
-      Muhammad Fadhil Zurani. All right reserved
+      <p class="p-copyright">
+        Muhammad Fadhil Zurani 122140146. All rights reserved.
+      </p>
     </footer>
   </body>
 </html>
