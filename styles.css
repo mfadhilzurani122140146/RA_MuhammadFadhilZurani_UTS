@@ -280,8 +280,8 @@ table tbody tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-table tbody tr:hover {
-  background-color: #ddd;
+table tbody tr :hover {
+  background-color: goldenrod;
 }
 
 thead.sticky-top th {
@@ -384,8 +384,4 @@ form {
     margin: 0 auto;
     overflow: auto;
   }
-}
-
-tbody tr :hover {
-  background-color: goldenrod;
 }
